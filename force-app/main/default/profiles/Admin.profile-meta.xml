@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>ApexLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -24,6 +28,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ApexLogger__c.MethodName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ApexLogger__c.TypeLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
