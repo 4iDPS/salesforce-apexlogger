@@ -7,44 +7,36 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApexLogger__c.ClassName__c</field>
+        <field>ApexLog__c.ClassName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApexLogger__c.DateLog__c</field>
+        <field>ApexLog__c.DateLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApexLogger__c.LineLog__c</field>
+        <field>ApexLog__c.LineLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApexLogger__c.MessageLog__c</field>
+        <field>ApexLog__c.MessageLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApexLogger__c.MethodName__c</field>
+        <field>ApexLog__c.MethodName__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApexLogger__c.TypeLog__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>ApexLogger__c-ApexLogger Layout</layout>
-    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ApexLogger__c</object>
+        <object>ApexLog__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
